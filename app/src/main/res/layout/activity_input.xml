@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35.5dp">
+    <TextView
+        android:id="@+id/Text_date"
+        android:layout_width="81dp"
+        android:layout_height="16dp"
+        android:text="2018/05/30"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:id="@+id/close_BT"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_round_black_close"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="14.3dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons"
+        android:layout_marginBottom="31dp">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8.3dp"
+            android:background="@drawable/img_won"
+            />
+        <EditText
+            android:id="@+id/money_ET"
+            android:layout_width="match_parent"
+            android:layout_height="79.5dp"
+            android:gravity="right"
+            android:text="0"
+            android:textSize="72dp"
+            android:background="@null"
+            android:textColor="#587bab"
+            android:inputType="number"
+            android:layout_marginRight="20dp"
+
+            />
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        
+        >
+
+        <Button
+            android:id="@+id/deposit_BT"
+            android:layout_width="150dp"
+            android:layout_height="67.5dp"
+            android:background="@drawable/rectangle_3"
+            android:shadowColor="#57c5ea"
+            android:layout_marginRight="20.3dp"
+
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="@string/deposit"/>
+
+        <Button
+            android:id="@+id/withdraw_BT"
+            android:layout_width="150dp"
+            android:layout_height="67.5dp"
+            android:background="@drawable/rectangle_4"
+            android:shadowColor="#ea5786"
+
+
+
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="@string/withdraw"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

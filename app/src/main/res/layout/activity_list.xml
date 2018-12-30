@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemListActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/Topbar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"
+        >
+        
+        <ImageView
+            android:id="@+id/before_date"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginRight="7.5dp"
+            android:background="@drawable/ic_back_gray"
+            />
+        <TextView
+            android:id="@+id/Text_date"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:text="2018/06/07"/>
+
+        <ImageView
+            android:id="@+id/next_date"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="7.5dp"
+            android:background="@drawable/ic_back_r_gray"
+
+            />
+
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/Topbar2"
+        android:layout_below="@+id/Topbar"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:background="#eee9e9"
+        android:gravity="center_vertical"
+        android:paddingLeft="10.5dp"
+        android:text="지출·수입 내역"/>
+
+    <ListView
+        android:id="@+id/LV_item"
+        android:layout_below="@id/Topbar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/add_BT"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_add_photo_keycolor"/>
+
+</RelativeLayout>

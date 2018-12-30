@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HKBookCYH</string>
+    <string name="HousekeeperBook">가계부</string>
+    <string name="who">최윤환에 의해 창조됨</string>
+    <string name="deposit">수입</string>
+    <string name="withdraw">지출</string>
+    <string name="delete">삭제</string>
+    <string name="info">상세 내역</string>
+    <string name="income">수입</string>
+    <string name="outgoing">지출</string>
+    <string name="won">원</string>
+</resources>

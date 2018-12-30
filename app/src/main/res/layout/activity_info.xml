@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp">
+        <ImageView
+
+            android:id="@+id/back_to_list"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:background="@drawable/ic_back_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/info"
+            android:textColor="#232323"
+            android:layout_centerInParent="true"
+            android:textSize="17dp"
+
+            />
+        
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_line"/>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/kind_IV"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/shape_oval"/>
+        <TextView
+            android:id="@+id/kind_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.5dp"
+            android:gravity="center"
+            android:text="@string/income"
+            android:textSize="27.5dp"
+            android:textColor="#00a99a"/>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14.5dp">
+
+        <ImageView
+
+            android:layout_width="75dp"
+            android:layout_height="63dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8.3dp"
+            android:background="@drawable/img_won"
+
+            />
+
+        <TextView
+            android:id="@+id/won_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20.8dp"
+            android:gravity="center"
+            android:text="10,000"
+            android:textColor="#587bab"
+            android:textSize="72dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/info_delete_BT"
+        android:layout_width="match_parent"
+        android:layout_height="67.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20.8dp"
+        android:gravity="center"
+        android:background="@drawable/shape_rectangle_delete"
+
+        android:text="@string/delete"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        />
+    
+</LinearLayout>

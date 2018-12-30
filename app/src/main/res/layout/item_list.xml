@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/kind_IV"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/shape_oval"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/kind_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="10000원"
+                android:textColor="#232323"/>
+            <TextView
+                android:id="@+id/kind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수입"
+                android:textColor="#00a99a"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/delete_Iv"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_edit_delete_keycolor"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

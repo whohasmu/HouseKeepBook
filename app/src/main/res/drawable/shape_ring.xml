@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:useLevel="false">
+
+    <solid
+        android:color="#c961a6"
+
+        />
+
+</shape>
+
+
+<!--
+android:useLevel 은 기본적으로 false로 지정.
+    ring속성은 solid(면)로 설정을 해줘야한다.
+
+-->

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HKBookCYH</string>
+    <string name="HousekeeperBook">House keeper Book</string>
+    <string name="who">created by choiyunhwan</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="delete">Delete</string>
+    <string name="info">Info</string>
+    <string name="income">Income</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="won">won</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
